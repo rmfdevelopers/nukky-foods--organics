@@ -4,17 +4,18 @@ import './globals.css';
 const heading = Cormorant_Garamond({ 
   subsets: ['latin'], 
   variable: '--font-heading',
-  weight: ['300', '400', '500', '600', '700']
+  weight: ['300', '400', '500', '600', '700'] 
 });
+
 const body = DM_Sans({ 
   subsets: ['latin'], 
   variable: '--font-body',
-  weight: ['300', '400', '500', '700']
+  weight: ['400', '500', '700']
 });
 
 export const metadata = {
   title: 'Nukky Foods & Organics | Healthy Nutritious Organic Foods',
-  description: 'Premium food processor specializing in fortified pap, organic spices, and pure skincare oils.',
+  description: 'Lagos-based artisanal food processor dedicated to fortified organics, premium spices, and sustainably sourced seafood.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
